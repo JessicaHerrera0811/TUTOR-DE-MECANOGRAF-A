@@ -1,0 +1,40 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class TutorMecanografia extends JFrame {
+    private JTextArea textArea;
+    // Agregar botones para representar teclas del teclado virtual
+
+    public TutorMecanografia() {
+        // Inicializar la interfaz y componentes aquí
+    }
+
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> {
+            new TutorMecanografia().setVisible(true);
+        });
+    }
+}
+// Dentro de la clase TutorMecanografia
+private void crearTecladoVirtual() {
+    // Crear y agregar botones para las teclas del teclado virtual
+    // Agregar ActionListener para manejar las pulsaciones de teclas
+}
+// Dentro de la clase TutorMecanografia
+private void mostrarPangramaAleatorio() {
+    // Leer y mostrar un pangrama aleatorio
+}
+// Dentro de la clase TutorMecanografia
+private int pulsacionesCorrectas;
+private int pulsacionesIncorrectas;
+private Set<Character> teclasDificiles;
+
+private void monitorearPrecisión(char teclaPresionada) {
+    // Verificar precisión y actualizar variables
+}
+// Dentro de la clase TutorMecanografia
+private void mostrarInforme() {
+    // Generar e imprimir informe de desempeño
+}
